@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,500&display=swap');
+/* logo  */
+.site-branding{
+        top:30%;
+        bottom:-50%;
+        position: absolute;
+        transform: translate(-50%, -10%);
+        left: 10%;
+        
+}
+.logo-img{
+    border-bottom: 2px solid #c85b0e;
+    border-radius: 30px;
+}
+body{
+    padding-top: 75px;
+}
+
+.nav-bg {
+    background-color: whitesmoke;
+
+}
+
+.btn-dark {
+    background-color: #0e023c;
+}
+
+/*HEADING*/
+.heading h1 {
+    font-size: 6vw;
+    font-family: 'lato', sans-serif;
+    color: #000007;
+}
+.heading h5 {
+    font-size: 3vw;
+    font-family: 'lato', sans-serif;
+    color: #000007;
+}
+.heading h2{
+    font-family: 'Poppins', serif;
+}
+
+.section .card-body {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+}
+
+.home card-img {
+    width: 25%;
+    border-radius: 65%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/*Footer*/
+footer {
+
+    background-color: whitesmoke;
+    box-shadow: 20px 20px 60px #e5aa4b,
+        -20px -20px 60px #ffffff;
+}
+
+footer box {
+
+    background-color: whitesmoke;
+    box-shadow: 20px 20px 60px #e5aa4b,
+        -20px -20px 60px #ffffff;
+}
+.R-icon{
+
+    background-color: #000007;
+
+}
+
+.f-icon {
+    border: 1px solid #ccc9d8;
+    border-radius: 50%;
+    padding: 7px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 7px 7px 14px #aaaaaa,
+        -7px -7px 14px #ffffff;
+}    
+.p-italic {
+        font-style: italic;
+      }
+/*card-12*/
+.h-icon{
+     border-radius: 8px;
+    background: #e0e0e0;
+    box-shadow:  16px 16px 32px #5a5a5a,
+                 -16px -16px 32px #ffffff;
+}
+.a-icon{
+    border-radius: 0px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  6px 6px 23px #c3c3c3,
+             -6px -6px 23px #fdfdfd;
+}
+.b-icon{
+    border-radius: 0px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  5px 5px 15px #c1c1c1,
+             -5px -5px 15px #ffffff;
+}
+/*contact*/
+.p-icon{
+    background: linear-gradient
+        45deg,
+        rgba(29, 236, 197, 0.5),
+        rgba(91, 14, 214, 0.5) 100%
+}
+
+/*wave animation*/
+@keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    50% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+
+.waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: -1px;
+    background-image:  width"20%;  linear-gradient(to bottom, #ffffff 20%, #ffffff 80%);
+}
+.bgTop {
+    z-index: 10;
+    opacity: 0.5;
+}
+.bgMiddle {
+    z-index: 10;
+    opacity: 0.75;
+}
+.bgBottom {
+    z-index: 10;
+}
+.wave {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.waveTop {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveTop {
+  animation: move-wave 3s;
+   -webkit-animation: move-wave 3s;
+   -webkit-animation-delay: 1s;
+   animation-delay: 1s;
+}
+.waveMiddle {
+    background-size: 50% 120px;
+}
+.waveAnimation .waveMiddle {
+    animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveBottom {
+    animation: move_wave 15s linear infinite;
+}
+/*icon img*/
+.section-icons .icon-one {
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    text-shadow: 12px 12px 12px #aaa, 12px 12px 20px rgb(224, 204, 204);
+    background-repeat: no-repeat;
+}
+.section-icons .icon-two {
+    position: absolute;
+    right: 50%;
+    top: 30%;
+    text-shadow: 10px 10px 10px #aaa, 14px 18px 24px #aaa;
+    background-repeat: no-repeat;
+}
+.section-icons .icon-three {
+    position: absolute;
+    right: 60%;
+    top: 55%;
+    text-shadow: 4px 4px 4px #aaa, 4px 8px 12px #aaa;
+    
+    background-repeat: no-repeat;
+}
+.section-icons .icon-four {
+    position: absolute;
+    left:70%;
+    top: 50%;
+    text-shadow: 4px 4px 4px #aaa, 4px 8px 12px #aaa;
+    background-repeat: no-repeat;
+}
+.section-icons .icon-five {
+    position: absolute;
+    right:8%;
+    top: 20%;
+    text-shadow: 4px 4px 4px #aaa, 4px 8px 12px #aaa;
+    background-repeat: no-repeat;
+}
+.section-icons .icon-six {
+    position: absolute;
+    left:20%;
+    top: 40%;
+    text-shadow: 8px 8px 8px #aaa, 10px 14px 20px #aaa;
+    background-repeat: no-repeat;
+}
+/*bubbles*/
+
+   
+ 
